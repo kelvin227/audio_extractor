@@ -1,0 +1,10 @@
+app:
+  name: "AudioExtractor"
+  version: "1.0.0"
+  description: "Extract audio from video instantly."
+  publisher: "Kelvin Ngene"
+
+windows:
+  exe:
+    icon: "assets/app_icon.ico"
+    install_dir: "AudioExtractor"

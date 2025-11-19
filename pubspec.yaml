@@ -50,6 +50,14 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
+  msix: ^3.16.12
+
+msix_config:
+  display_name: "AudioExtractor: Gator audio Extractor"
+  publisher_display_name: "Kelvin Ngene"
+  identity_name: com.codegator.AudioExtractor
+  msix_version: 1.0.0.0
+  logo_path:  C:\Users\trust\StudioProjects\audio_extractor\assets\app_icon.ico
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -63,7 +71,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - assets/app_icon.ico
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
